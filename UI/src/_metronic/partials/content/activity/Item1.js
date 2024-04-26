@@ -1,0 +1,46 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Item1 = void 0;
+var helpers_1 = require("../../../helpers");
+var Item1 = function () {
+    return (React.createElement("div", { className: 'timeline-item' },
+        React.createElement("div", { className: 'timeline-line w-40px' }),
+        React.createElement("div", { className: 'timeline-icon symbol symbol-circle symbol-40px me-4' },
+            React.createElement("div", { className: 'symbol-label bg-light' },
+                React.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/communication/com003.svg', className: 'svg-icon-2 svg-icon-gray-500' }))),
+        React.createElement("div", { className: 'timeline-content mb-10 mt-n1' },
+            React.createElement("div", { className: 'pe-3 mb-5' },
+                React.createElement("div", { className: 'fs-5 fw-bold mb-2' }, "There are 2 new tasks for you in \u201CAirPlus Mobile APp\u201D project:"),
+                React.createElement("div", { className: 'd-flex align-items-center mt-1 fs-6' },
+                    React.createElement("div", { className: 'text-muted me-2 fs-7' }, "Added at 4:23 PM by"),
+                    React.createElement("div", { className: 'symbol symbol-circle symbol-25px', "data-bs-toggle": 'tooltip', "data-bs-boundary": 'window', "data-bs-placement": 'top', title: 'Nina Nilson' },
+                        React.createElement("img", { src: (0, helpers_1.toAbsoluteUrl)('/media/avatars/150-11.jpg'), alt: 'img' })))),
+            React.createElement("div", { className: 'overflow-auto pb-5' },
+                React.createElement("div", { className: 'd-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-5' },
+                    React.createElement("a", { href: '#', className: 'fs-5 text-dark text-hover-primary fw-bold w-375px min-w-200px' }, "Meeting with customer"),
+                    React.createElement("div", { className: 'min-w-175px pe-2' },
+                        React.createElement("span", { className: 'badge badge-light text-muted' }, "Application Design")),
+                    React.createElement("div", { className: 'symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px pe-2' },
+                        React.createElement("div", { className: 'symbol symbol-circle symbol-25px' },
+                            React.createElement("img", { src: (0, helpers_1.toAbsoluteUrl)('/media/avatars/150-3.jpg'), alt: 'img' })),
+                        React.createElement("div", { className: 'symbol symbol-circle symbol-25px' },
+                            React.createElement("img", { src: (0, helpers_1.toAbsoluteUrl)('/media/avatars/150-11.jpg'), alt: 'img' })),
+                        React.createElement("div", { className: 'symbol symbol-circle symbol-25px' },
+                            React.createElement("div", { className: 'symbol-label fs-8 fw-bold bg-primary text-inverse-primary' }, "A"))),
+                    React.createElement("div", { className: 'min-w-125px pe-2' },
+                        React.createElement("span", { className: 'badge badge-light-primary' }, "In Progress")),
+                    React.createElement("a", { href: '#', className: 'btn btn-sm btn-light btn-active-light-primary' }, "View")),
+                React.createElement("div", { className: 'd-flex align-items-center border border-dashed border-gray-300 rounded min-w-750px px-7 py-3 mb-0' },
+                    React.createElement("a", { href: '#', className: 'fs-5 text-dark text-hover-primary fw-bold w-375px min-w-200px' }, "Project Delivery Preparation"),
+                    React.createElement("div", { className: 'min-w-175px' },
+                        React.createElement("span", { className: 'badge badge-light text-muted' }, "CRM System Development")),
+                    React.createElement("div", { className: 'symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px' },
+                        React.createElement("div", { className: 'symbol symbol-circle symbol-25px' },
+                            React.createElement("img", { src: (0, helpers_1.toAbsoluteUrl)('/media/avatars/150-5.jpg'), alt: 'img' })),
+                        React.createElement("div", { className: 'symbol symbol-circle symbol-25px' },
+                            React.createElement("div", { className: 'symbol-label fs-8 fw-bold bg-success text-inverse-primary' }, "B"))),
+                    React.createElement("div", { className: 'min-w-125px' },
+                        React.createElement("span", { className: 'badge badge-light-success' }, "Completed")),
+                    React.createElement("a", { href: '#', className: 'btn btn-sm btn-light btn-active-light-primary' }, "View"))))));
+};
+exports.Item1 = Item1;

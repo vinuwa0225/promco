@@ -1,0 +1,67 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ListsWidget3 = void 0;
+/* eslint-disable jsx-a11y/anchor-is-valid */
+var react_1 = require("react");
+var helpers_1 = require("../../../helpers");
+var Dropdown1_1 = require("../../content/dropdown/Dropdown1");
+var ListsWidget3 = function (_a) {
+    var className = _a.className;
+    return (react_1.default.createElement("div", { className: "card ".concat(className) },
+        react_1.default.createElement("div", { className: 'card-header border-0' },
+            react_1.default.createElement("h3", { className: 'card-title fw-bolder text-dark' }, "Todo"),
+            react_1.default.createElement("div", { className: 'card-toolbar' },
+                react_1.default.createElement("button", { type: 'button', className: 'btn btn-sm btn-icon btn-color-primary btn-active-light-primary', "data-kt-menu-trigger": 'click', "data-kt-menu-placement": 'bottom-end', "data-kt-menu-flip": 'top-end' },
+                    react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/general/gen024.svg', className: 'svg-icon-2' })),
+                react_1.default.createElement(Dropdown1_1.Dropdown1, null))),
+        react_1.default.createElement("div", { className: 'card-body pt-2' },
+            react_1.default.createElement("div", { className: 'd-flex align-items-center mb-8' },
+                react_1.default.createElement("span", { className: 'bullet bullet-vertical h-40px bg-success' }),
+                react_1.default.createElement("div", { className: 'form-check form-check-custom form-check-solid mx-5' },
+                    react_1.default.createElement("input", { className: 'form-check-input', type: 'checkbox', value: '' })),
+                react_1.default.createElement("div", { className: 'flex-grow-1' },
+                    react_1.default.createElement("a", { href: '#', className: 'text-gray-800 text-hover-primary fw-bolder fs-6' }, "Create FireStone Logo"),
+                    react_1.default.createElement("span", { className: 'text-muted fw-bold d-block' }, "Due in 2 Days")),
+                react_1.default.createElement("span", { className: 'badge badge-light-success fs-8 fw-bolder' }, "New")),
+            react_1.default.createElement("div", { className: 'd-flex align-items-center mb-8' },
+                react_1.default.createElement("span", { className: 'bullet bullet-vertical h-40px bg-primary' }),
+                react_1.default.createElement("div", { className: 'form-check form-check-custom form-check-solid mx-5' },
+                    react_1.default.createElement("input", { className: 'form-check-input', type: 'checkbox', value: '' })),
+                react_1.default.createElement("div", { className: 'flex-grow-1' },
+                    react_1.default.createElement("a", { href: '#', className: 'text-gray-800 text-hover-primary fw-bolder fs-6' }, "Stakeholder Meeting"),
+                    react_1.default.createElement("span", { className: 'text-muted fw-bold d-block' }, "Due in 3 Days")),
+                react_1.default.createElement("span", { className: 'badge badge-light-primary fs-8 fw-bolder' }, "New")),
+            react_1.default.createElement("div", { className: 'd-flex align-items-center mb-8' },
+                react_1.default.createElement("span", { className: 'bullet bullet-vertical h-40px bg-warning' }),
+                react_1.default.createElement("div", { className: 'form-check form-check-custom form-check-solid mx-5' },
+                    react_1.default.createElement("input", { className: 'form-check-input', type: 'checkbox', value: '' })),
+                react_1.default.createElement("div", { className: 'flex-grow-1' },
+                    react_1.default.createElement("a", { href: '#', className: 'text-gray-800 text-hover-primary fw-bolder fs-6' }, "Scoping & Estimations"),
+                    react_1.default.createElement("span", { className: 'text-muted fw-bold d-block' }, "Due in 5 Days")),
+                react_1.default.createElement("span", { className: 'badge badge-light-warning fs-8 fw-bolder' }, "New")),
+            react_1.default.createElement("div", { className: 'd-flex align-items-center mb-8' },
+                react_1.default.createElement("span", { className: 'bullet bullet-vertical h-40px bg-primary' }),
+                react_1.default.createElement("div", { className: 'form-check form-check-custom form-check-solid mx-5' },
+                    react_1.default.createElement("input", { className: 'form-check-input', type: 'checkbox', value: '' })),
+                react_1.default.createElement("div", { className: 'flex-grow-1' },
+                    react_1.default.createElement("a", { href: '#', className: 'text-gray-800 text-hover-primary fw-bolder fs-6' }, "KPI App Showcase"),
+                    react_1.default.createElement("span", { className: 'text-muted fw-bold d-block' }, "Due in 2 Days")),
+                react_1.default.createElement("span", { className: 'badge badge-light-primary fs-8 fw-bolder' }, "New")),
+            react_1.default.createElement("div", { className: 'd-flex align-items-center mb-8' },
+                react_1.default.createElement("span", { className: 'bullet bullet-vertical h-40px bg-danger' }),
+                react_1.default.createElement("div", { className: 'form-check form-check-custom form-check-solid mx-5' },
+                    react_1.default.createElement("input", { className: 'form-check-input', type: 'checkbox', value: '' })),
+                react_1.default.createElement("div", { className: 'flex-grow-1' },
+                    react_1.default.createElement("a", { href: '#', className: 'text-gray-800 text-hover-primary fw-bolder fs-6' }, "Project Meeting"),
+                    react_1.default.createElement("span", { className: 'text-muted fw-bold d-block' }, "Due in 12 Days")),
+                react_1.default.createElement("span", { className: 'badge badge-light-danger fs-8 fw-bolder' }, "New")),
+            react_1.default.createElement("div", { className: 'd-flex align-items-center' },
+                react_1.default.createElement("span", { className: 'bullet bullet-vertical h-40px bg-success' }),
+                react_1.default.createElement("div", { className: 'form-check form-check-custom form-check-solid mx-5' },
+                    react_1.default.createElement("input", { className: 'form-check-input', type: 'checkbox', value: '' })),
+                react_1.default.createElement("div", { className: 'flex-grow-1' },
+                    react_1.default.createElement("a", { href: '#', className: 'text-gray-800 text-hover-primary fw-bolder fs-6' }, "Customers Update"),
+                    react_1.default.createElement("span", { className: 'text-muted fw-bold d-block' }, "Due in 1 week")),
+                react_1.default.createElement("span", { className: 'badge badge-light-success fs-8 fw-bolder' }, "New")))));
+};
+exports.ListsWidget3 = ListsWidget3;

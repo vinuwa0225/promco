@@ -1,0 +1,68 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MixedWidget1 = void 0;
+/* eslint-disable jsx-a11y/anchor-is-valid */
+var react_1 = require("react");
+var Dropdown1_1 = require("../../content/dropdown/Dropdown1");
+var helpers_1 = require("../../../helpers");
+var MixedWidget1 = function (_a) {
+    var className = _a.className, color = _a.color;
+    return (react_1.default.createElement("div", { className: "card ".concat(className) },
+        react_1.default.createElement("div", { className: 'card-body p-0' },
+            react_1.default.createElement("div", { className: "px-9 pt-7 card-rounded h-275px w-100 bg-".concat(color) },
+                react_1.default.createElement("div", { className: 'd-flex flex-stack' },
+                    react_1.default.createElement("h3", { className: 'm-0 text-white fw-bolder fs-3' }, "Sales Summary"),
+                    react_1.default.createElement("div", { className: 'ms-1' },
+                        react_1.default.createElement("button", { type: 'button', className: "btn btn-sm btn-icon btn-color-white btn-active-white btn-active-color-".concat(color, " border-0 me-n3"), "data-kt-menu-trigger": 'click', "data-kt-menu-placement": 'bottom-end', "data-kt-menu-flip": 'top-end' },
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/general/gen024.svg', className: 'svg-icon-2' })),
+                        react_1.default.createElement(Dropdown1_1.Dropdown1, null))),
+                react_1.default.createElement("div", { className: 'd-flex text-center flex-column text-white pt-8' },
+                    react_1.default.createElement("span", { className: 'fw-bold fs-7' }, "You Balance"),
+                    react_1.default.createElement("span", { className: 'fw-bolder fs-2x pt-1' }, "$37,562.00"))),
+            react_1.default.createElement("div", { className: 'shadow-xs card-rounded mx-9 mb-9 px-6 py-9 position-relative z-index-1 bg-white', style: { marginTop: '-100px' } },
+                react_1.default.createElement("div", { className: 'd-flex align-items-center mb-6' },
+                    react_1.default.createElement("div", { className: 'symbol symbol-45px w-40px me-5' },
+                        react_1.default.createElement("span", { className: 'symbol-label bg-lighten' },
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/maps/map004.svg', className: 'svg-icon-1' }))),
+                    react_1.default.createElement("div", { className: 'd-flex align-items-center flex-wrap w-100' },
+                        react_1.default.createElement("div", { className: 'mb-1 pe-3 flex-grow-1' },
+                            react_1.default.createElement("a", { href: '#', className: 'fs-5 text-gray-800 text-hover-primary fw-bolder' }, "Sales"),
+                            react_1.default.createElement("div", { className: 'text-gray-400 fw-bold fs-7' }, "100 Regions")),
+                        react_1.default.createElement("div", { className: 'd-flex align-items-center' },
+                            react_1.default.createElement("div", { className: 'fw-bolder fs-5 text-gray-800 pe-1' }, "$2,5b"),
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/arrows/arr066.svg', className: 'svg-icon-5 svg-icon-success ms-1' })))),
+                react_1.default.createElement("div", { className: 'd-flex align-items-center mb-6' },
+                    react_1.default.createElement("div", { className: 'symbol symbol-45px w-40px me-5' },
+                        react_1.default.createElement("span", { className: 'symbol-label bg-lighten' },
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/general/gen024.svg', className: 'svg-icon-1' }))),
+                    react_1.default.createElement("div", { className: 'd-flex align-items-center flex-wrap w-100' },
+                        react_1.default.createElement("div", { className: 'mb-1 pe-3 flex-grow-1' },
+                            react_1.default.createElement("a", { href: '#', className: 'fs-5 text-gray-800 text-hover-primary fw-bolder' }, "Revenue"),
+                            react_1.default.createElement("div", { className: 'text-gray-400 fw-bold fs-7' }, "Quarter 2/3")),
+                        react_1.default.createElement("div", { className: 'd-flex align-items-center' },
+                            react_1.default.createElement("div", { className: 'fw-bolder fs-5 text-gray-800 pe-1' }, "$1,7b"),
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/general/gen024.svg', className: 'svg-icon-5 svg-icon-danger ms-1' })))),
+                react_1.default.createElement("div", { className: 'd-flex align-items-center mb-6' },
+                    react_1.default.createElement("div", { className: 'symbol symbol-45px w-40px me-5' },
+                        react_1.default.createElement("span", { className: 'symbol-label bg-lighten' },
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/electronics/elc005.svg', className: 'svg-icon-1' }))),
+                    react_1.default.createElement("div", { className: 'd-flex align-items-center flex-wrap w-100' },
+                        react_1.default.createElement("div", { className: 'mb-1 pe-3 flex-grow-1' },
+                            react_1.default.createElement("a", { href: '#', className: 'fs-5 text-gray-800 text-hover-primary fw-bolder' }, "Growth"),
+                            react_1.default.createElement("div", { className: 'text-gray-400 fw-bold fs-7' }, "80% Rate")),
+                        react_1.default.createElement("div", { className: 'd-flex align-items-center' },
+                            react_1.default.createElement("div", { className: 'fw-bolder fs-5 text-gray-800 pe-1' }, "$8,8m"),
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/arrows/arr066.svg', className: 'svg-icon-5 svg-icon-success ms-1' })))),
+                react_1.default.createElement("div", { className: 'd-flex align-items-center' },
+                    react_1.default.createElement("div", { className: 'symbol symbol-45px w-40px me-5' },
+                        react_1.default.createElement("span", { className: 'symbol-label bg-lighten' },
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/general/gen005.svg', className: 'svg-icon-1' }))),
+                    react_1.default.createElement("div", { className: 'd-flex align-items-center flex-wrap w-100' },
+                        react_1.default.createElement("div", { className: 'mb-1 pe-3 flex-grow-1' },
+                            react_1.default.createElement("a", { href: '#', className: 'fs-5 text-gray-800 text-hover-primary fw-bolder' }, "Dispute"),
+                            react_1.default.createElement("div", { className: 'text-gray-400 fw-bold fs-7' }, "3090 Refunds")),
+                        react_1.default.createElement("div", { className: 'd-flex align-items-center' },
+                            react_1.default.createElement("div", { className: 'fw-bolder fs-5 text-gray-800 pe-1' }, "$270m"),
+                            react_1.default.createElement(helpers_1.KTSVG, { path: '/media/icons/duotune/arrows/arr065.svg', className: 'svg-icon-5 svg-icon-danger ms-1' }))))))));
+};
+exports.MixedWidget1 = MixedWidget1;
